@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Shared Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Mulish;
+}
+
+.pri-color {
+    color: #FF5400;
+}
+
+p .primary-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+/* Header Styles */
+header {
+    padding: 3.2rem 8.4rem 6.25rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.tags>ul {
+    display: flex;
+}
+
+.tags li {
+    list-style: none;
+    margin-right: 2.75rem;
+    font-size: 1.2rem;
+}
+
+.tags li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+#menu {
+    display: none;
+}
+
+.agency {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.booking {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 1rem;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text {
+    color: #FFF;
+}
+
+.text h1 {
+    padding: 6.625rem 15rem 0;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#text1 {
+    padding: 1.5rem 14rem 3rem;
+}
+
+.input-layout {
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.30);
+    margin-bottom: 6.625rem;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+form {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.textD {
+    color: tomato;
+    padding-left: 150px;
+}
+
+/* Color Didn't work */
+input,
+select {
+    width: 10.9rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+input::placeholder {
+    padding-left: 1rem;
+}
+
+.btn1 {
+    width: 10.9rem;
+    height: 3.25rem;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+/* Main Styles */
+.container1 {
+    display: flex;
+    padding: 0 8.4rem;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.text-container>h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.text-container p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+.destination {
+    width: 100%;
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.destination h1 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.destination-text {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.row {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.row img {
+    position: relative;
+}
+
+.reason {
+    width: 100%;
+    margin-top: 6.25rem;
+}
+
+.reason h1 {
+    text-align: center;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.reason-row {
+    margin: 0 8.4rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+
+.reason1 {
+    width: 30rem;
+    height: 18rem;
+    padding-left: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.reason2 {
+    width: 30rem;
+    height: 18rem;
+    padding-left: 2rem;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.reason-img {
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.reason-Heading {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.reason-text {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding-right: 3.5rem;
+}
+.reason3{
+    width: 30rem;
+    height: 18rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+/* Responsive design */
+@media screen and (max-width:600px) {
+    .onMobile {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .agency {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .agency>img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .name {
+        font-size: 21.543px;
+    }
+
+    .booking {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .text>h1 {
+        padding: 2rem 2rem 0;
+        font-size: 1.3rem;
+    }
+
+    #text1 {
+        padding: 1rem;
+        font-size: 14px;
+    }
+
+    .input-layout {
+        padding: 1rem;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    input,
+    select {
+        width: 16rem;
+    }
+
+    .container1 {
+        flex-direction: column;
+        padding: 1.25rem;
+    }
+
+    .text-container>h1 {
+        font-size: 1.25rem;
+    }
+
+    .text-container p {
+        font-size: 0.8rem;
+        line-height: 24px;
+    }
+
+    .img-container img {
+        object-fit: cover;
+        width: 90vw;
+    }
+
+}

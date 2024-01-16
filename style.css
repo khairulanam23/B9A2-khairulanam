@@ -365,9 +365,12 @@ ul {
     .row1{
         flex-direction: column;
         margin: 0 20px;
-        width: auto;
+    }
+    .left-item, .right-item{
+        width:94%;
     }
     .item2{
-        width: 90%;
+        margin: 20px 20px 0;
+        width: 89%;
     }
 }

@@ -457,4 +457,25 @@ small {
         margin: 20px 20px 0;
         width: 89%;
     }
+    .newsletter {
+        margin-top: 6.25rem;
+        padding: 0 20px;
+    }
+    .form-text{
+        width: 90vw;
+    }
+    .news{
+        justify-content: left;
+    }
+    .news input{
+        width: 70%;
+        
+    }
+
+    hr {
+        margin: 20px 10px;
+        width: 50%;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+    }
 }

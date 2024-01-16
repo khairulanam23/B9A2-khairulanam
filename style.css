@@ -194,28 +194,27 @@ ul {
     position: relative;
 }
 
-.reason {
-    width: 100%;
+/*Why Choose Us Section */
+.reason-head {
+    text-align: center;
     margin-top: 6.25rem;
 }
 
-.reason h1 {
-    text-align: center;
+.reason-head h1 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
 }
 
-.reason-row {
-    margin: 0 8.4rem;
+.row1 {
     display: flex;
-    justify-items: center;
     justify-content: space-around;
+    margin: 0 8.4rem;
     margin-bottom: 1.5rem;
 }
 
-.reason1 {
+.left-item {
     width: 30rem;
     height: 18rem;
     padding-left: 2rem;
@@ -224,7 +223,7 @@ ul {
     background: rgba(251, 181, 99, 0.05);
 }
 
-.reason2 {
+.right-item {
     width: 30rem;
     height: 18rem;
     padding-left: 2rem;
@@ -252,14 +251,23 @@ ul {
     line-height: 1.6rem;
     padding-right: 3.5rem;
 }
-.reason3{
-    width: 30rem;
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item2 {
+    width: 36rem;
     height: 18rem;
     padding-left: 2rem;
-    border-radius: 1rem;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-bottom: 7rem;
 }
+
+
 
 /* Responsive design */
 @media screen and (max-width:600px) {
@@ -341,5 +349,24 @@ ul {
         object-fit: cover;
         width: 90vw;
     }
+    .destination-text{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .row {
+        flex-direction: column;
+    }
 
+    .row img {
+        width: 90%;
+        height: 176px;
+        padding: 0 20px;
+    }
+    .row1{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .item2{
+        width: 90%;
+    }
 }

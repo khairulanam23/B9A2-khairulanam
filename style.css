@@ -365,6 +365,7 @@ ul {
     .row1{
         flex-direction: column;
         margin: 0 20px;
+        width: auto;
     }
     .item2{
         width: 90%;
